@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://j3j032ncudnj"
+path="res://.godot/imported/BasicPupWhite.fnt-133002d8914013f8d851261693a3aef5.fontdata"
+
+[deps]
+
+source_file="res://fonts/NicoFontPack-v1.0/Bitmap Fonts/2. BasicPupWhite/BMFont XML/BasicPupWhite.fnt"
+dest_files=["res://.godot/imported/BasicPupWhite.fnt-133002d8914013f8d851261693a3aef5.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

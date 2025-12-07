@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://dpq42iml6uomp"]
+
+[ext_resource type="Script" uid="uid://dcpugjh87mvyh" path="res://playerBody/ghost.gd" id="1_5lti3"]
+[ext_resource type="Texture2D" uid="uid://lfiurejbnfxf" path="res://enemies/ghost.png" id="1_hflc8"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_hflc8"]
+radius = 110.005
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5lti3"]
+radius = 15.0333
+
+[node name="Ghost" type="CharacterBody2D" groups=["ghost"]]
+script = ExtResource("1_5lti3")
+chase_speed = 60.0
+stop_chase_radius = 120.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_hflc8")
+
+[node name="ChaseArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ChaseArea"]
+position = Vector2(0, 1)
+shape = SubResource("CircleShape2D_hflc8")
+
+[node name="HurtArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HurtArea"]
+shape = SubResource("CircleShape2D_5lti3")

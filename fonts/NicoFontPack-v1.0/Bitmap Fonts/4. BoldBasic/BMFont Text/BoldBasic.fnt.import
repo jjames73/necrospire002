@@ -1,0 +1,16 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://y4o1ptwia634"
+valid=false
+
+[deps]
+
+source_file="res://fonts/NicoFontPack-v1.0/Bitmap Fonts/4. BoldBasic/BMFont Text/BoldBasic.fnt"
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

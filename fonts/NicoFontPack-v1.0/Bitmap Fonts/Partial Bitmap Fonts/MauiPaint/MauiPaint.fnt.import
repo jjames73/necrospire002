@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://dgamfpyfxr3ep"
+path="res://.godot/imported/MauiPaint.fnt-fbf09fd85005da2f95ef172297a24833.fontdata"
+
+[deps]
+
+source_file="res://fonts/NicoFontPack-v1.0/Bitmap Fonts/Partial Bitmap Fonts/MauiPaint/MauiPaint.fnt"
+dest_files=["res://.godot/imported/MauiPaint.fnt-fbf09fd85005da2f95ef172297a24833.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

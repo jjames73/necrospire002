@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://sc8sij4cj0f0"
+path="res://.godot/imported/CleanBasic.fnt-3dd32856b2c19f22f16d4ffbd197315a.fontdata"
+
+[deps]
+
+source_file="res://fonts/NicoFontPack-v1.0/Bitmap Fonts/13. CleanBasic/BMFont XML/CleanBasic.fnt"
+dest_files=["res://.godot/imported/CleanBasic.fnt-3dd32856b2c19f22f16d4ffbd197315a.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

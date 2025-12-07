@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://do7ck8kby73f1"]
+
+[ext_resource type="Texture2D" uid="uid://bicfalhakhd08" path="res://NecroTower/soulPellet.png" id="1_ak0t7"]
+[ext_resource type="Script" uid="uid://clhft8wng5grc" path="res://playerBody/soul_pellet.gd" id="1_r7dvg"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_r7dvg"]
+radius = 3.0
+
+[node name="soulPellet" type="Area2D"]
+script = ExtResource("1_r7dvg")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_ak0t7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_r7dvg")

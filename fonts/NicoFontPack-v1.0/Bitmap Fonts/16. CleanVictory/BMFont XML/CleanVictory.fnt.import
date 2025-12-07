@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://bbtqlkunb1j28"
+path="res://.godot/imported/CleanVictory.fnt-8ec1baada2d9fd00675cdb497a1d233d.fontdata"
+
+[deps]
+
+source_file="res://fonts/NicoFontPack-v1.0/Bitmap Fonts/16. CleanVictory/BMFont XML/CleanVictory.fnt"
+dest_files=["res://.godot/imported/CleanVictory.fnt-8ec1baada2d9fd00675cdb497a1d233d.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://4f472ky4ovi2"
+path="res://.godot/imported/CakeIcing.fnt-30adbf19e09ce2f0e11b43d1d688266d.fontdata"
+
+[deps]
+
+source_file="res://fonts/NicoFontPack-v1.0/Bitmap Fonts/10. CakeIcing/BMFont XML/CakeIcing.fnt"
+dest_files=["res://.godot/imported/CakeIcing.fnt-30adbf19e09ce2f0e11b43d1d688266d.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

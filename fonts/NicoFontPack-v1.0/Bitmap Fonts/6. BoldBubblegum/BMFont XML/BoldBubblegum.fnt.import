@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://dh4prwee1i0va"
+path="res://.godot/imported/BoldBubblegum.fnt-e91af66c62c86591b52943fc233a801e.fontdata"
+
+[deps]
+
+source_file="res://fonts/NicoFontPack-v1.0/Bitmap Fonts/6. BoldBubblegum/BMFont XML/BoldBubblegum.fnt"
+dest_files=["res://.godot/imported/BoldBubblegum.fnt-e91af66c62c86591b52943fc233a801e.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

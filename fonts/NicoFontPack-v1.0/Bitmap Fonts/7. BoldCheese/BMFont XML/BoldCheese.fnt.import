@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://brswg0040tcx7"
+path="res://.godot/imported/BoldCheese.fnt-5aab1157cda352b55a1e3c5ca1b7ebd9.fontdata"
+
+[deps]
+
+source_file="res://fonts/NicoFontPack-v1.0/Bitmap Fonts/7. BoldCheese/BMFont XML/BoldCheese.fnt"
+dest_files=["res://.godot/imported/BoldCheese.fnt-5aab1157cda352b55a1e3c5ca1b7ebd9.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

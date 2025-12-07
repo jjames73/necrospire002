@@ -1,0 +1,38 @@
+[gd_scene load_steps=4 format=3 uid="uid://bm2fj0h0mk027"]
+
+[ext_resource type="Script" uid="uid://g6tltiaq4vfh" path="res://player.gd" id="1_3l0kl"]
+[ext_resource type="Texture2D" uid="uid://6p4nd1tnvkqr" path="res://maze_Maps/maze_tilemap-Sheet.png" id="2_3l0kl"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3l0kl"]
+radius = 2.51271
+
+[node name="Player" type="CharacterBody2D"]
+motion_mode = 1
+floor_stop_on_slope = false
+floor_snap_length = 0.0
+script = ExtResource("1_3l0kl")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-1.05548, -0.445253)
+texture = ExtResource("2_3l0kl")
+region_enabled = true
+region_rect = Rect2(144, 0, 16, 16)
+
+[node name="rc_up" type="RayCast2D" parent="."]
+target_position = Vector2(0, -9)
+collision_mask = 2
+
+[node name="rc_down" type="RayCast2D" parent="."]
+target_position = Vector2(0, 9)
+collision_mask = 2
+
+[node name="rc_left" type="RayCast2D" parent="."]
+target_position = Vector2(-8, 0)
+collision_mask = 2
+
+[node name="rc_right" type="RayCast2D" parent="."]
+target_position = Vector2(7, 0)
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_3l0kl")

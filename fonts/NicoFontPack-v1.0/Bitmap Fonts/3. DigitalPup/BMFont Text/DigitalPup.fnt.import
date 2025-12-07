@@ -1,0 +1,16 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://cx5idd145uv2m"
+valid=false
+
+[deps]
+
+source_file="res://fonts/NicoFontPack-v1.0/Bitmap Fonts/3. DigitalPup/BMFont Text/DigitalPup.fnt"
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2
