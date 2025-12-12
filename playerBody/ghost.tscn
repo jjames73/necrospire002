@@ -4,15 +4,13 @@
 [ext_resource type="Texture2D" uid="uid://lfiurejbnfxf" path="res://enemies/ghost.png" id="1_hflc8"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_hflc8"]
-radius = 110.005
+radius = 93.0
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_5lti3"]
-radius = 15.0333
+radius = 13.0384
 
 [node name="Ghost" type="CharacterBody2D" groups=["ghost"]]
 script = ExtResource("1_5lti3")
-chase_speed = 60.0
-stop_chase_radius = 120.0
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_hflc8")

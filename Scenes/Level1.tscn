@@ -140,24 +140,17 @@ theme_override_fonts/font = ExtResource("4_03na7")
 theme_override_font_sizes/font_size = 18
 text = "Lives:3"
 
-[node name="Label" type="Label" parent="CanvasLayer"]
-anchors_preset = -1
-anchor_right = 0.129
-anchor_bottom = 0.09
-offset_left = 304.0
-offset_top = 224.0
-offset_right = 261.44
-offset_bottom = 214.6
-text = "222"
-
 [node name="Ghost" parent="." instance=ExtResource("5_xftlc")]
-position = Vector2(261, 119)
+position = Vector2(204, 94)
+chase_speed = 55.0
 player_path = NodePath("../Player")
 
 [node name="Ghost2" parent="." instance=ExtResource("5_xftlc")]
 position = Vector2(467, 290)
+chase_speed = 50.0
 player_path = NodePath("../Player")
 
 [node name="Ghost3" parent="." instance=ExtResource("5_xftlc")]
 position = Vector2(133, 356)
+chase_speed = 60.0
 player_path = NodePath("../Player")
