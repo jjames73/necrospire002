@@ -7,6 +7,7 @@ extends CharacterBody2D
 @export var invincibility_duration: float = 2.0
 @export var souls_required_to_open: int = 200
 @export var door_sprite: Sprite2D
+@export var score_message: Label
 @export_file("*.tscn") var next_level_scene: String
 
 var dir: Vector2 = Vector2.ZERO
@@ -101,7 +102,9 @@ func add_soul(amount: int = 1) -> void:
 	
 	if score >= souls_required_to_open:
 		_can_leave()
-
+		score_message.text = "Press Space to open door"
+		score_message.visible = true
+		
 func _update_score_label() -> void:
 	if score_label:
 		score_label.text = "Souls: " + str(score)
@@ -174,7 +177,6 @@ func _on_door_zone_body_entered(body: Node) -> void:
 		in_door_area = true
 		print("Player entered door zone. Score =", score, " / required =", souls_required_to_open)
 
-
 # Called when the player exits the door's Area2D (DoorZone)
 func _on_door_zone_body_exited(body: Node) -> void:
 	if body == self:
@@ -184,3 +186,4 @@ func _on_door_zone_body_exited(body: Node) -> void:
 func _can_leave() -> void:
 	if door_sprite:
 		door_sprite.modulate = Color(1.0, 1.0, 0.0)  # yellow
+		

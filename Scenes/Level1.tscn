@@ -119,12 +119,13 @@ layer_0/tile_data = PackedInt32Array(1114129, 1, 0, 1048593, 1, 0, 983057, 1, 0,
 use_parent_material = true
 tile_set = SubResource("TileSet_xftlc")
 
-[node name="Player" parent="." node_paths=PackedStringArray("score_label", "lives_label", "door_sprite") instance=ExtResource("2_1n30v")]
+[node name="Player" parent="." node_paths=PackedStringArray("score_label", "lives_label", "door_sprite", "score_message") instance=ExtResource("2_1n30v")]
 position = Vector2(241, 343)
 score_label = NodePath("../CanvasLayer/Scoreboard")
 lives_label = NodePath("../CanvasLayer/Lives")
 souls_required_to_open = 70
 door_sprite = NodePath("../DoorZone/doors")
+score_message = NodePath("../openDoor")
 next_level_scene = "uid://dnfsmlp088nx4"
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
@@ -168,6 +169,12 @@ shape = SubResource("RectangleShape2D_slnnj")
 
 [node name="GameController" type="Node" parent="."]
 script = ExtResource("6_t3or0")
+
+[node name="openDoor" type="Label" parent="."]
+offset_left = 142.0
+offset_top = 20.0
+offset_right = 244.0
+offset_bottom = 102.0
 
 [connection signal="body_entered" from="DoorZone" to="Player" method="_on_door_zone_body_entered"]
 [connection signal="body_exited" from="DoorZone" to="Player" method="_on_door_zone_body_exited"]
