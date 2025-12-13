@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://q2iwp732fpr6"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+offset_left = 194.0
+offset_top = 85.0
+offset_right = 470.0
+offset_bottom = 195.0
+color = Color(0.0596887, 0.0596887, 0.0596887, 1)
+
+[node name="Label" type="Label" parent="CanvasLayer/ColorRect"]
+layout_mode = 0
+offset_left = 62.0
+offset_top = 61.0
+offset_right = 218.0
+offset_bottom = 84.0
+text = "Click \"P\" to unpause"
+
+[node name="Label2" type="Label" parent="CanvasLayer/ColorRect"]
+layout_mode = 0
+offset_left = 47.0
+offset_top = 31.0
+offset_right = 229.0
+offset_bottom = 54.0
+text = "Click \"R\" to restart level"

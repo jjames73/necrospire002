@@ -1,3 +1,25 @@
-[gd_scene format=3 uid="uid://c6cvhkr7qwbxo"]
+[gd_scene load_steps=3 format=3 uid="uid://c6cvhkr7qwbxo"]
+
+[ext_resource type="Texture2D" uid="uid://c7efncuep45s0" path="res://NecroTower/Instructions.png" id="1_8p7yn"]
+[ext_resource type="Script" uid="uid://cgvgg5fh0mdch" path="res://Scenes/instructions.gd" id="1_dxknu"]
 
 [node name="Instructions" type="Node2D"]
+script = ExtResource("1_dxknu")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 657.0
+offset_bottom = 371.0
+color = Color(0.0823506, 0.0823506, 0.0823506, 1)
+
+[node name="Label" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_left = 407.0
+offset_top = 326.0
+offset_right = 635.0
+offset_bottom = 386.0
+text = "Click space to return to menu"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(311, 182)
+scale = Vector2(0.220339, 0.221951)
+texture = ExtResource("1_8p7yn")
